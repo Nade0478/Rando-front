@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './CardDashboard.css';
 import './Sidebar.css';
-import Logo from '../Logo';
+import Logo from '../logo/Logo';
 
 
 const Sidebar = () => {

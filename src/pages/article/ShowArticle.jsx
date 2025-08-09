@@ -1,10 +1,11 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import 'leaflet/dist/leaflet.css';
 import Menu from "../../components/Menu";
 import Footer from "../../components/Footer";
 import DarkModeForm from "../../components/DarkModeForm"; // Ajout de l'import manquant
-import "../../style/style.css";
+import "../../styles/style.css";
 
 const ShowArticle = () => {
   const { id } = useParams();
