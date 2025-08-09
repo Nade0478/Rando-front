@@ -1,7 +1,7 @@
 import React from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
-import "../styles/style-contact.css";
+import "../style/style-contact.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactForm from "../components/ContactForm";
 import DarkModeForm from "../components/DarkModeForm";

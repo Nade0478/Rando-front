@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.footer {
+  background-color: #5b3e23;
+  color: white;
+  font-family: "Inknut Antiqua", serif;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centre uniquement le contenu du footer */
+}
+
+.footer h4,
+.footer h5,
+.footer p,
+.footer .social-icons {
+  text-align: center; /* Centre uniquement le texte et les icônes */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Centre les icônes sociales */
+  gap: 15px;
+}
+
+.copyright {
+  font-size: 0.9em;
+  color: #ddd;
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style-footer.css.map */

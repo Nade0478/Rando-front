@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Blog from "./pages/Blog"; 
 import Home from "./pages/Home"; 
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import About from "./pages/about";
+import Contact from "./pages/contact";
 
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";

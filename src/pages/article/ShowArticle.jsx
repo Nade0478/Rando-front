@@ -4,7 +4,7 @@ import axios from "axios";
 import Menu from "../../components/Menu";
 import Footer from "../../components/Footer";
 import DarkModeForm from "../../components/DarkModeForm"; // Ajout de l'import manquant
-import "../../styles/style.css";
+import "../../style/style.css";
 
 const ShowArticle = () => {
   const { id } = useParams();

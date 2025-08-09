@@ -4,7 +4,7 @@ import Footer from "../../components/Footer";
 import DarkModeForm from "../../components/DarkModeForm";
 
 // Import du fichier de styles global
-import "../../styles/style.css";
+import "../../style/style.css";
 import PlaceForm from "../../components/place/PlaceForm";
 import PlaceList from "../../components/place/PlaceList";
 import PlaceOpinion from "../../components/place/PlaceOpinion";

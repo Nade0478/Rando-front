@@ -1,10 +1,10 @@
 import React from 'react'; 
 import Menu from '../components/Menu';
 import Footer from '../components/Footer';
-import HomeHead from '../components/home/HomeHead';
-import HomeNewArticle from '../components/home/HomeNewArticle';
-import HomeNewPlace from '../components/home/HomeNewPlace';
-import '../styles/style-home.css';
+import HomeHead from '../../components/home/HomeHead';
+import HomeNewArticle from '../../components/home/HomeNewArticle';
+import HomeNewPlace from '../../components/home/HomeNewPlace';
+import '../style/style-home.css';
 import DarkModeForm from '../components/DarkModeForm';
 
 const Home = () => { 

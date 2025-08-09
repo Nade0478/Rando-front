@@ -5,7 +5,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import FilterDropdown from "../../components/FilterDropdown";
 import Sidebar from "../../components/admin/Sidebar";
-import "../../styles/style.css";
+import "../../style/style.css";
 
 const Article = () => {
   const [articles, setArticles] = useState([]); // Correction du nom pour plus de clarté
