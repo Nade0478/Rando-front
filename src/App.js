@@ -1,13 +1,13 @@
 import React from "react"; 
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
 
-import Blog from "./pages/Blog"; 
+import Blog from "./pages/blog/Blog"; 
 import Home from "./pages/Home"; 
-import About from "./pages/about";
-import Contact from "./pages/contact";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 
-import Terms from "./pages/Terms";
-import Privacy from "./pages/Privacy";
+import Terms from "./pages/autre/Terms";
+import Privacy from "./pages/autre/Privacy";
 import Register from "./pages/auth/Register";
 import Login from "./pages/auth/Login";
 
@@ -46,7 +46,7 @@ import ShowUser from "./pages/user/ShowUser";
 
 import ShowArticle from "./pages/article/ShowArticle";
 import ShowOpinion from "./pages/opinion/ShowOpinion";
-import FaqPage from "./pages/divers/FaqPage";
+import FaqPage from "./pages/autre/FaqPage";
 
 
 
@@ -55,14 +55,14 @@ const App = () => {
     <BrowserRouter> 
         <Routes> 
           <Route path="/" element={<Home />} /> 
-          <Route path="/about" element={<About />} /> 
+          <Route path="about/about" element={<About />} /> 
           <Route path="/blog" element={<Blog />} /> 
           {/* <Route path="/blog/add" element={<AddBlog />} />  */}
           {/* <Route path="/blog/edit/:blog" element={<EditBlog />} /> */}
           {/* <Route path="/home/Add" element={<AddHome />} /> */}
           {/* <Route path="/home/Edit/:home" element={<EditHome />} /> */}
 
-          <Route path="/contact" element={<Contact />} /> 
+          <Route path="contact/Contact" element={<Contact />} /> 
 
           <Route path="/article" element={<Article />} /> 
           <Route path="/article/add" element={<AddArticle />} /> 
@@ -96,12 +96,12 @@ const App = () => {
           {/* <Route path="/Auth/Register" element={<Register />} /> 
           <Route path="/Auth/Login" element={<Login />} />  */}
 
-          <Route path="/terms" element={<Terms />} />
-          <Route path="/privacy" element={<Privacy />} />
-          <Route path="/register" element={<Register />} /> 
-          <Route path="/login" element={<Login />} /> 
+          <Route path="autre/terms" element={<Terms />} />
+          <Route path="autre/privacy" element={<Privacy />} />
+          <Route path="auth/register" element={<Register />} /> 
+          <Route path="auth/login" element={<Login />} /> 
           <Route path="*" element={<Home />} /> 
-          <Route path="/home" element={<Home />} />
+          <Route path="home/home" element={<Home />} />
           {/* <Route path="/home/add" element={<AddHome />} />  */}
           {/* <Route path="/home/edit" element={<EditHome />} />  */}
 
@@ -116,6 +116,8 @@ const App = () => {
           {/* <Route path="/user/add" element={<AddUser />} />  */}
           {/* <Route path="/user/edit/:article" element={<EditUser />} /> 
           <Route path="/user/show/:id" element={<ShowUser />} />  */}
+
+          <Route path="about/About" element={<About />} />
 
         </Routes> 
     </BrowserRouter> 

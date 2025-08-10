@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/Container"; 
-import RegisterForm from "../../components/RegisterForm";
-import Menu from "../../components/Menu";
-import Footer from "../../components/Footer";
+import RegisterForm from "../../components/register/RegisterForm";
+import Menu from "../../components/menu/Menu";
+import Footer from "../../components/footer/Footer";
  
 function Register() { 
   return ( 

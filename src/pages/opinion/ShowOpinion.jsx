@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useCallback } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import Menu from "../../components/Menu";
-import Footer from "../../components/Footer";
-import DarkModeForm from "../../components/DarkModeForm";
+import Menu from "../../components/menu/Menu";
+import Footer from "../../components/footer/Footer";
+import DarkModeForm from "../../components/darkmode/DarkModeForm";
 
 const ShowOpinion = () => {
   const { id } = useParams();

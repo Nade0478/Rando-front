@@ -3,8 +3,9 @@ import Table from "react-bootstrap/Table";
 import Button from "react-bootstrap/Button";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
 import Sidebar from "../components/admin/Sidebar";
+import Footer from "../components/footer/Footer";
+
 
 const Role = () => {
   const [role, setRole] = useState([]);

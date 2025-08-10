@@ -1,7 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import DarkModeForm from "../components/DarkModeForm";
-import Menu from "../components/Menu";
+import Menu from "../../components/menu/Menu";
+import DarkModeForm from "../../components/darkmode/DarkModeForm";
+
 
 const PrivacyPage = () => {
   return (

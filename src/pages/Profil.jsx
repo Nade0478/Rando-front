@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
-import Footer from "../components/Footer";
+
+import axios from "axios";
+import DarkModeForm from "../components/darkmode/DarkModeForm";
+import SidebardProfil from "../components/sidebar/SidebardProfil";
+import ProfileCard from "../components/profil/ProfileCard";
 import ModifProfil from "../components/profil/ModifProfil";
 import ContactProfil from "../components/profil/ContactProfil";
-import axios from "axios";
-import ProfileCard from "../components/profil/ProfileCard";
-import SidebarProfil from "../components/profil/SidebarProfil";
-import DarkModeForm from "../components/DarkModeForm";
+import Footer from "../components/footer/Footer";
+
 
 function Profil() {
   const [id_user, setId_user] = useState("");
@@ -40,7 +42,7 @@ if (storedUserId) {
   // Vérification si l'utilisateur est connecté
   return (
     <div>
-      <SidebarProfil />
+      <SidebardProfil />
       <DarkModeForm />
       {user ? (
         <>

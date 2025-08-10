@@ -5,7 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import Map from "../../components/Map";
+import Map from "../../components/map/Map";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
 import Sidebar from "../../components/admin/Sidebar";

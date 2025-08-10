@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from '../Logo-rando-ouest.png';
 import { Link } from 'react-router-dom';
-import '../style/style.css';
+import '../../style/style.css';
 
 const Logo = () => { 
     return ( 

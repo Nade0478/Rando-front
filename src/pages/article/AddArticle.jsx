@@ -5,9 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import Footer from "../../components/Footer";
-import Menu from "../../components/Menu";
-import DarkModeForm from "../../components/DarkModeForm"; // Ajout de l'import manquant
+import Footer from "../../components/footer/Footer";
+import Menu from "../../components/menu/Menu";
+import DarkModeForm from "../../components/darkmode/DarkModeForm"; // Ajout de l'import manquant
 
 const AddArticle = () => {
   const navigate = useNavigate();

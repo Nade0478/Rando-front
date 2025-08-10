@@ -1,7 +1,7 @@
 import React from "react";
-import Menu from "../../components/Menu";
-import Footer from "../../components/Footer";
-import DarkModeForm from "../../components/DarkModeForm";
+import Menu from "../../components/menu/Menu";
+import Footer from "../../components/footer/Footer";
+import DarkModeForm from "../../components/darkmode/DarkModeForm";
 
 // Import du fichier de styles global
 import "../../style/style.css";

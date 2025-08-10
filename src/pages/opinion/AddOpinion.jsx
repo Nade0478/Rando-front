@@ -5,9 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import Menu from "../../components/Menu";
-import Footer from "../../components/Footer";
-import DarkModeForm from "../../components/DarkModeForm"; 
+import Menu from "../../components/menu/Menu";
+import Footer from "../../components/footer/Footer";
+import DarkModeForm from "../../components/darkmode/DarkModeForm"; 
 
 const OpinionAdd = () => {
   const navigate = useNavigate();

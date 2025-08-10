@@ -1,8 +1,10 @@
 import React from "react";
-import Menu from "../components/Menu";
-import Footer from "../components/Footer";
-import BlogForm from "../components/blog/BlogForm";
-import DarkModeForm from "../components/DarkModeForm";
+import Menu from "../../components/menu/Menu";
+import DarkModeForm from "../../components/darkmode/DarkModeForm";
+import Footer from "../../components/footer/Footer";
+import BlogForm from "../../components/blog/BlogForm";
+
+
 
 const Blog = () => {
   const exampleArticle = {
@@ -13,6 +15,7 @@ const Blog = () => {
   return (
     <div className="page-wrapper">
       <Menu />
+      {/* Ajout du composant Menu */}
       <DarkModeForm />
       <div className="root">
         <div className="container-fluid">

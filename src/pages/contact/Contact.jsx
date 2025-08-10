@@ -1,10 +1,10 @@
 import React from "react";
-import Menu from "../components/Menu";
-import Footer from "../components/Footer";
-import "../style/style-contact.css";
+import "../../style/style-contact.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ContactForm from "../components/ContactForm";
-import DarkModeForm from "../components/DarkModeForm";
+import DarkModeForm from "../../components/darkmode/DarkModeForm";
+import ContactForm from "../../components/contact/ContactForm";
+import Menu from "../../components/menu/Menu";
+import Footer from "../../components/footer/Footer";
 
 const Contact = () => {
   return (

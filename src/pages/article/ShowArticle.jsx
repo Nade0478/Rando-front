@@ -2,10 +2,10 @@ import React, { useEffect, useState, useCallback } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import 'leaflet/dist/leaflet.css';
-import Menu from "../../components/Menu";
-import Footer from "../../components/Footer";
-import DarkModeForm from "../../components/DarkModeForm"; // Ajout de l'import manquant
-import "../../styles/style.css";
+import Menu from "../../components/menu/Menu";
+import Footer from "../../components/footer/Footer";
+import DarkModeForm from "../../components/darkmode/DarkModeForm"; // Ajout de l'import manquant
+import "../../style/style.css";
 
 const ShowArticle = () => {
   const { id } = useParams();
