@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import "../profil/SidebarProfil.css"; 
-import Logo from '../Logo';
+import "../profil/SidebardProfil.css"; 
+import Logo from '../logo/Logo';
 
 
-const SidebarProfil = () => {
+
+const SidebardProfil = () => {
   return (
-    <div className="sidebarProfil">
-      <Logo />
+    <div className="sidebardProfil">
+      <Logo /> {/* Ajout du logo dans la sidebar */}
       <div className="sidebarContent"> {/* Ajout d'un conteneur interne */}
         <ul>
           <li><Link to="/">Accueil</Link></li>
@@ -24,4 +25,4 @@ const SidebarProfil = () => {
 };
 
 
-export default SidebarProfil;
+export default SidebardProfil;

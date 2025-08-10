@@ -1,5 +1,5 @@
 import React from 'react';
-import NbrUserForm from './NbrUserFrom';
+import NbrUserForm from './NbrUserForm';
 import NbrArticleForm from './NbrArticleForm';
 import NbrLieuxForm from './NbrLieuxForm';
 import NbrAvisForm from './NbrAvisForm';

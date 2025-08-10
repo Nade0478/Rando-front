@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import '../style/style-contact.scss';
+import '../../style/style-contact.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './ContactForm.css';
-import '../style/style-footer.css';
+import '../../style/style-footer.css';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({

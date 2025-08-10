@@ -2,11 +2,12 @@ import React, { useEffect, useState } from "react";
 
 import axios from "axios";
 import DarkModeForm from "../components/darkmode/DarkModeForm";
-import SidebardProfil from "../components/sidebar/SidebardProfil";
+
 import ProfileCard from "../components/profil/ProfileCard";
 import ModifProfil from "../components/profil/ModifProfil";
 import ContactProfil from "../components/profil/ContactProfil";
 import Footer from "../components/footer/Footer";
+import SidebardProfil from "../components/profil/SidebardProfil";
 
 
 function Profil() {
