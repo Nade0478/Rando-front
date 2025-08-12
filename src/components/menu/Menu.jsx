@@ -23,26 +23,26 @@ const Menu = () => {
                 </NavDropdown.Item> 
               </NavDropdown> 
               <NavDropdown title="Randonnées pédestre" id="navbarScrollingDropdown"> 
-                <NavDropdown.Item href="/place/page"> 
+                <NavDropdown.Item href="/place/place/page"> 
                   Page randonnées pédestre
                 </NavDropdown.Item> 
-                <NavDropdown.Item href="/place/page"> 
+                <NavDropdown.Item href="/place/place/page"> 
                   Liste des opinions 
                 </NavDropdown.Item> 
-                <NavDropdown.Item href="/opinion/add"> 
+                <NavDropdown.Item href="/opinion/opinion/add"> 
                   Donnez votre opinion
                 </NavDropdown.Item> 
               </NavDropdown> 
               <NavDropdown title="Blog" id="navbarScrollingDropdown"> 
-                <NavDropdown.Item href="/blog"> 
+                <NavDropdown.Item href="/blog/blog"> 
                   Mon Blog
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/article/add"> 
+                <NavDropdown.Item href="/article/article/add"> 
                   Créer un nouvel article 
                 </NavDropdown.Item> 
               </NavDropdown>
               <NavDropdown title="Contact" id="navbarScrollingDropdown"> 
-                <NavDropdown.Item href="/contact"> 
+                <NavDropdown.Item href="/contact/contact"> 
                   Page contact 
                 </NavDropdown.Item> 
               </NavDropdown> 
@@ -51,7 +51,7 @@ const Menu = () => {
             {/* Menu à DROITE */}
             <Nav className="ms-auto my-2 my-lg-0" style={{ maxHeight: "100px" }} navbarScroll>
               <NavDropdown title="Login" id="navbarScrollingDropdown"> 
-                <NavDropdown.Item href="/login"> 
+                <NavDropdown.Item href="/auth/login"> 
                   Se connecter 
                 </NavDropdown.Item> 
                 <NavDropdown.Item href="/logout"> 
@@ -59,7 +59,7 @@ const Menu = () => {
                 </NavDropdown.Item> 
               </NavDropdown>
               <NavDropdown title="Register" id="navbarScrollingDropdown">
-                <NavDropdown.Item href="/register"> 
+                <NavDropdown.Item href="/auth/register"> 
                   S'inscrire
                 </NavDropdown.Item>
               </NavDropdown>

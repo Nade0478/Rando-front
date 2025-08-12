@@ -49,7 +49,7 @@ const HomeNewArticle = () => {
                 </div>
                 <h3 className="item-title">{item.title_article}</h3>
                 <Link
-                  to={`/article/show/${item.id}`}
+                  to={`/article/article/show/${item.id}`}
                   className="btn custom-btn"
                 >
                   Découvrir
