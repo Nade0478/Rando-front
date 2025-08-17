@@ -1,8 +1,8 @@
 import React from "react";
-import Menu from "../../components/menu/Menu";
-import DarkModeForm from "../../components/darkmode/DarkModeForm";
-import Footer from "../../components/footer/Footer";
-import BlogForm from "../../components/blog/BlogForm";
+import Menu from "../components/menu/Menu";
+import DarkModeForm from "../components/darkmode/DarkModeForm";
+import Footer from "../components/footer/Footer";
+import BlogForm from "../components/blog/BlogForm";
 
 
 

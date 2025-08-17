@@ -23,10 +23,10 @@ const Menu = () => {
                 </NavDropdown.Item> 
               </NavDropdown> 
               <NavDropdown title="Randonnées pédestre" id="navbarScrollingDropdown"> 
-                <NavDropdown.Item href="/place/place/page"> 
+                <NavDropdown.Item href="/place"> 
                   Page randonnées pédestre
                 </NavDropdown.Item> 
-                <NavDropdown.Item href="/place/place/page"> 
+                <NavDropdown.Item href="/place"> 
                   Liste des opinions 
                 </NavDropdown.Item> 
                 <NavDropdown.Item href="/opinion/opinion/add"> 
@@ -34,15 +34,15 @@ const Menu = () => {
                 </NavDropdown.Item> 
               </NavDropdown> 
               <NavDropdown title="Blog" id="navbarScrollingDropdown"> 
-                <NavDropdown.Item href="/blog/blog"> 
+                <NavDropdown.Item href="/blog"> 
                   Mon Blog
                 </NavDropdown.Item>
-                <NavDropdown.Item href="/article/article/add"> 
+                <NavDropdown.Item href="/article/add"> 
                   Créer un nouvel article 
                 </NavDropdown.Item> 
               </NavDropdown>
               <NavDropdown title="Contact" id="navbarScrollingDropdown"> 
-                <NavDropdown.Item href="/contact/contact"> 
+                <NavDropdown.Item href="/contact"> 
                   Page contact 
                 </NavDropdown.Item> 
               </NavDropdown> 

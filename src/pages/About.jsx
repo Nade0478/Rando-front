@@ -1,12 +1,12 @@
 import React from "react";
-import Menu from "../../components/menu/Menu";
-import DarkModeForm from "../../components/darkmode/DarkModeForm";
-import AboutForm from "../../components/about/AboutForm";
-import AboutForm4 from "../../components/about/AboutForm4";
-import AboutForm1 from "../../components/about/AboutForm1";
-import AboutForm2 from "../../components/about/AboutForm2";
-import AboutForm3 from "../../components/about/AboutForm3";
-import Footer from "../../components/footer/Footer";
+import Menu from "../components/menu/Menu";
+import DarkModeForm from "../components/darkmode/DarkModeForm";
+import AboutForm from "../components/about/AboutForm";
+import AboutForm4 from "../components/about/AboutForm4";
+import AboutForm1 from "../components/about/AboutForm1";
+import AboutForm2 from "../components/about/AboutForm2";
+import AboutForm3 from "../components/about/AboutForm3";
+import Footer from "../components/footer/Footer";
 
 const About = () => {
   return (
